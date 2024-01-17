@@ -1,0 +1,126 @@
+<html>
+<head>
+    <title>Genshin Impact Archon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">    
+    <link rel="icon" href="css/genshinimpact.png">
+</head>
+<body>
+    <div class="w3-container">
+        <img src="css/bannergenshin.jpg" alt="banner" style="width: 100%; height: 300px">
+    </div>
+    
+    <div class="w3-bar w3-blue w3-card-4">
+        <button class="w3-bar-item w3-button" onclick="Menu('Home')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="Menu('Raiden')">Raiden</button>
+        <button class="w3-bar-item w3-button" onclick="Menu('Nahida')">Nahida</button>
+        <button class="w3-bar-item w3-button" onclick="Menu('Venti')">Venti</button>
+        <button class="w3-bar-item w3-button" onclick="Menu('Zhongli')">Zhongli</button>
+        <button class="w3-bar-item w3-button" onclick="Menu('Furina')">Furina</button>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Profile</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="Menu('Profile')">Profile</button>
+                <button class="w3-bar-item w3-button" onclick="Menu('ProfileGame')">Profile Genshin</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="Home" class="w3-container char">
+        <h1 class="w3-center">Selamat Datang</h1>
+        <hr>
+        <h1>ARCHON</h1>
+        <p>Archon adalah gelar untuk para dewa yang memerintah setiap wilayah di dunia Teyvat. Mereka memiliki kekuatan dan pengaruh besar terhadap keberlangsungan kehidupan di Teyvat.</p>
+        <p>Saat ini Teyvat memiliki 5 Archon yaitu Venti (Archon Mondstadt), Zhonli (Archon Liyue), Raiden Shogun (Archon Inazuma), Nahida (Archon Sumeru), dan Furina (Archon Fontaine).Terdapat 2 Archon lagi yang belum diketahui identitasnya.</p>
+    </div>
+
+    <div id="Raiden" class="w3-container char w3-padding-24 w3-animate-top" style="display: none;">
+        <div class="w3-container w3-card-4 w3-purple w3-round-xlarge">
+            <div class="w3-container">
+                <img src="css/raidenshogun.png" alt="Raiden" style="float: left;">
+                <h1>Raiden Shogun</h1>
+                <p>Raiden Shogun adalah karakter dalam "Genshin Impact" dengan elemen Electro (Listrik).Dia adalah pemimpin Inazuma, bertanggung jawab menciptakan Eternity. Dikenal kaku tapi kompleks secara emosional, Raiden Shogun memiliki serangan area dan serangan Electro (listrik) yang kuat melalui kemampuan Elemental Burst dan Elemental Skill-nya. Desainnya mencerminkan budaya Jepang dengan unsur-unsur samurai dan Electro (listrik).</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Nahida" class="w3-container char w3-padding-24 w3-animate-bottom" style="display: none;">
+        <div class="w3-container w3-card-4 w3-green w3-round-xlarge">
+            <div class="w3-container">
+                <img src="css/nahida.png" alt="Nahdia" style="float: left;">
+                <h1>Nahida</h1>
+                <p>Nahida adalah karakter dalam "Genshin Impact" dengan elemen Dendro (Tumbuhan).Dia bisa memicu reaksi Elemental Dendro di luar pertempuran dan menyebabkan DMG. Dengan Elemental Skill, Nahida bisa menandai musuh dengan "Seed of Skandha" dan menghubungkan musuh berdekatan.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Venti" class="w3-container char w3-padding-24 w3-animate-left" style="display: none;">
+        <div class="w3-container w3-card-4 w3-cyan w3-round-xlarge">
+            <div class="w3-container">
+                <img src="css/venti.png" alt="Venti" style="float: left;">
+                <h1>Venti</h1>
+                <p>Venti adalah karakter dalam "Genshin Impact" dengan elemen Anemo (angin).Dia memiliki kendali atas elemen Anemo (angin). Venti dikenal karena sifat cerianya dan seni musiknya. Penampilannya yang mencolok dan kepribadiannya yang santai menjadikannya karakter yang menyenangkan. Senjata pilihannya adalah panah dan busur.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Zhongli" class="w3-container char w3-padding-24 w3-animate-right" style="display: none;">
+        <div class="w3-container w3-card-4 w3-yellow w3-round-xlarge">
+            <div class="w3-container">
+                <img src="css/zhongli.png" alt="Zhongli" style="float: left;">
+                <h1>Zhongli</h1>
+                <p>Zhongli adalah karakter dalam "Genshin Impact" dengan elemen Geo (tanah).Dia memiliki kemampuan untuk mengendalikan elemen Geo (tana), memanipulasi batu dan pertahanan. Sebagai bekas Archon Geo, Zhongli memiliki pengetahuan luas tentang sejarah dan kebudayaan Teyvat. Dia dikenal karena kebijaksanaannya dan sikapnya yang tenang. Senjata pilihannya adalah tombak.</p>
+            </div>
+        </div> 
+    </div>
+
+    <div id="Furina" class="w3-container char w3-padding-24 w3-animate-zoom" style="display: none;">
+        <div class="w3-container w3-card-4 w3-blue w3-round-xlarge">
+            <div class="w3-container">
+                <img src="css/furina.png" alt="Furina" style="float: left;">
+                <h1>Furina</h1>
+                <p>Furina adalah karakter dalam "Genshin Impact" dengan elemen Hydro (air).Orang-orang menyukainya karena pidatonya yang cemerlang dan penampilannya yang anggun, yang memberikan gadis itu pesona dewa. Namun, Furina paling dihormati karena dramanya yang luar biasa. Dia menyerupai karakter teater yang paling tidak terduga, itulah sebabnya dia membuat orang biasa terpesona.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Profile" class="w3-container char w3-center w3-padding-24" style="display: none; max-width: 300px; margin: auto;">
+        <div class="w3-container w3-card-4 w3-light-grey w3-round-xlarge">
+          <div class="w3-container">
+            <h1>PROFILE</h1>
+            <img src="css/egy.png" alt="Egy" class="w3-round-xlarge" style="width: 100%; max-width: 150px;">
+            <h2>Egy Audiawan Riyadi</h2>
+            <p style="color: grey; font-size: 14px;">10123026 (IF 1)</p>
+            <p style="color: grey; font-size: 14px;">Universitas Komputer Indonesia</p>
+          </div>
+        </div>
+      </div>
+
+    <div id="ProfileGame" class="w3-container char w3-center w3-padding-24" style="display: none; max-width: 1000px; margin: auto;">
+        <center>
+        <div class="w3-container w3-card-4 w3-round-xxlarge">
+            <div class="w3-container">
+                <h3>Owned Character Statistic:</h3>
+                <div class="w3-container w3-row-padding">
+                    <div class="w3-row s4"><img src="css/raidenstat.PNG" alt="Raiden Shogun Statistic" class="w3-padding-16 w3-animate-zoom" style="height: auto; width: 100%;"></div>
+                    <div class="w3-row s4"><img src="css/ayatostat.png" alt="Kamisato Ayato Statistic" class="w3-padding-16 w3-animate-zoom" style="height: auto; width: 100%;"></div>
+                    <div class="w3-row s4"><img src="css/ayakastat.png" alt="Kamisato Ayaka Statistic" class="w3-padding-16 w3-animate-zoom" style="height: auto; width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+        </center>
+    </div>
+
+
+    <script>
+        function Menu(Karakter) {
+            var i;
+            var x = document.getElementsByClassName("char");
+            for (i = 0;i < x.length;i++){
+                x[i].style.display = "none";
+            }
+            document.getElementById(Karakter).style.display = "block";
+        }
+    </script>
+</body>
+</html>
